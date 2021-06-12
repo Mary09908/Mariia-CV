@@ -214,6 +214,7 @@ button {
   color: #1f6eb8;
   font-weight: 600;
   fill: #da3731;
+  padding-right: 20px;
 }
 .phone svg {
   transform: translateY(20%);
