@@ -165,9 +165,7 @@ button {
 }
 .about__photo img {
   width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  border: 3px solid #1f6eb8;
+  border: 3px solid #fff;
 }
 
 .title {
@@ -183,6 +181,7 @@ button {
   padding-left: 70px;
 }
 .about__main-text {
+  color: #fff;
   padding-bottom: 50px;
   line-height: 28px;
 }
@@ -203,7 +202,7 @@ button {
   font-weight: 600;
 }
 .about__main-info p span {
-  color: #000;
+  color: #fff;
   text-transform: none;
 }
 
@@ -221,11 +220,11 @@ button {
   transition: 1.5s;
 }
 .phone span {
-  color: #000;
+  color: #fff;
   text-transform: none;
 }
 .phone .phone-body {
-  fill: #666666;
+  fill: #fff;
 }
 .phone:hover svg {
   fill: #08af24;
@@ -240,14 +239,14 @@ button {
   text-transform: uppercase;
   color: #1f6eb8;
   font-weight: 600;
-  fill: #666666;
+  fill: #fff;
 }
 .email svg {
   transform: translateY(20%);
   transition: 1.5s;
 }
 .email span {
-  color: #000;
+  color: #fff;
   text-transform: none;
 }
 .email:hover svg {
@@ -388,7 +387,9 @@ button {
   color: #1f6eb8;
   font-weight: 600;
 }
-
+.portfolio {
+  padding-top: 50px;
+}
 .portfolio__slider {
   position: relative;
   margin-top: 50px;
@@ -429,6 +430,14 @@ button {
 .portfolio__slider-image {
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.portfolio__slider-image-full {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.portfolio__slider-image-full img {
+  width: 700px;
+  height: 500px;
 }
 .portfolio__slider-image img {
   width: 600px;
@@ -481,6 +490,8 @@ button {
 }
 .contacts__sub {
   padding-bottom: 30px;
+  font-weight: 600;
+  color: #fff;
 }
 .contacts__link {
   padding-bottom: 30px;
@@ -506,7 +517,7 @@ button {
 .contacts__cocial-title {
   padding-bottom: 20px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 
 .contacts__form-wrap input,
@@ -515,23 +526,21 @@ button {
 }
 
 .contacts__messenger-title {
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 .contacts__messenger-title img {
   width: 40px;
   height: 40px;
 }
-.contacts__messenger-title a:last-child {
-  margin-left: 20px;
-}
 .contacts__messenger-title p {
   padding-top: 60px;
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .contacts__form-title {
-  color: #000;
+  color: #fff;
   font-weight: 600;
   font-size: 20px;
   padding-bottom: 20px;
@@ -567,6 +576,7 @@ button {
   outline: none;
   height: 60px;
   transition: 1s;
+  font-weight: 600;
 }
 .contacts__form button:hover {
   background-color: #5521e6;
