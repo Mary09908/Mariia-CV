@@ -586,6 +586,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+.download__cv .btn {
+  font-weight: 600;
+}
 @media (max-width: 1110px) {
   .contacts__inner {
     padding-top: 50px;
