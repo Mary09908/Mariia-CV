@@ -581,7 +581,11 @@ button {
 .contacts__form button:hover {
   background-color: #5521e6;
 }
-
+.download__cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 1110px) {
   .contacts__inner {
     padding-top: 50px;
@@ -610,9 +614,7 @@ button {
 @media (max-width: 1000px) {
   .about__photo img {
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px solid #1f6eb8;
+    border: 3px solid #fff;
   }
 
   .about__main-text {
